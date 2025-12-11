@@ -24,7 +24,8 @@ Visualizations:
 •	Feature correlation: Heatmap to identify strong predictors
 •	Scatter plots: Clump Thickness vs Uniformity Cell Size
 •	Boxplots: Bare Nuclei distribution by class
- 
+ <img width="758" height="579" alt="image" src="https://github.com/user-attachments/assets/4b6a2c3d-732f-47c6-8084-05612d09fe95" />
+
 
 3.2 Understanding k in kNN
 •	k = number of neighbors
@@ -88,15 +89,14 @@ Now that we've found the best k, let's evaluate our model using this value. We'l
 
 #9. Weighted KNN Analysis
 In a weighted KNN, closer neighbors have more influence on the prediction. Let's compare how our model performs with uniform weighting (all neighbors have equal importance) versus distance weighting (closer neighbors have more importance). We'll create two classifiers with the optimal k: one with uniform weights and one with distance-based weights.
-
-
-
+<img width="671" height="479" alt="image" src="https://github.com/user-attachments/assets/92e0c6a8-0a9f-4b00-980f-77d6f8d47d7f" />
 
 Weighted KNN can be particularly useful when dealing with unevenly distributed data, as it can help improve performance.
 
 #10. ROC & Precision-Recall Curves  
 •	The ROC-AUC score shows how well a model can distinguish between different classes.  
 •	Precision-Recall curves are especially handy when dealing with imbalanced datasets.  
+<img width="731" height="697" alt="image" src="https://github.com/user-attachments/assets/8acbc67e-5466-485d-9ab2-1e9fe946b4d9" />
 
  
 #11. Cross-Validation  
