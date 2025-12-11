@@ -1,4 +1,4 @@
-### k-Nearest Neighbors (kNN): Breast Cancer Classification
+### Breast Cancer Classification using k-Nearest Neighbors (kNN)
 
 # Abstract  
 This tutorial offers a thorough guide to understanding and applying the k-Nearest Neighbors (KNN) algorithm, with a special emphasis on selecting the best k value. Using the Wisconsin Breast Cancer dataset, we explore the real-world effects of the bias-variance tradeoff, cross-validation methods, and best practices for using KNN in practical classification tasks.  
