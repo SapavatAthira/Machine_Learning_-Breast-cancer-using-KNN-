@@ -143,10 +143,11 @@ This value strikes the perfect balance avoiding underfitting (when k is too high
 
 Comparing Performance Across K Values  
 Table 1 illustrates how the model’s performance changes with different k values:  
- k Value	Test Accuracy	F1-Score	Variance   
-k=1	94.29%	   0.9268	              High
-k=9              	97.14%	  0.9655	             Optimal
- k=20          	96.43%	   0.9565	              Low
+k Value	  Test Accuracy	     F1-Score	         Variance   
+k=1	          94.29%	        0.9268	              High
+k=9           97.14%	        0.9655	             Optimal
+k=20          96.43%	        0.9565	              Low
+
 
 Table 1: How model performance shifts with varying k values*  
 
